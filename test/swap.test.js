@@ -72,6 +72,17 @@ describe("Token contract", () => {
     ({ swapper, factory, weth, router, token, deployer_addr, addr1, addr2 } = await loadFixture(deployContractsFixture));
   });
 
+    describe("Set router in Swapper by non-admin", () => {
+
+	it("fail", async() => {
+	    await expectRevert(
+		swapper.connect(addr1).setRouter(router.address),
+		`ERC20Swapper_NonAdmin_Unauthorized("${addr1.address}")`
+	    )
+	});
+
+    });
+
     describe("Swap tokens for ETH", () => {
 
 	const tokenDesired = ethers.utils.parseEther("50.0");

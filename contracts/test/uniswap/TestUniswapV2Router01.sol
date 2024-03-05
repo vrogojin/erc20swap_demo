@@ -9,6 +9,11 @@ import '@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol';
 import '@uniswap/v2-periphery/contracts/interfaces/IERC20.sol';
 import '@uniswap/v2-periphery/contracts/interfaces/IWETH.sol';
 
+/**
+ * @title TestUniswapV2Router01
+ * @dev Re-implemented Uniswap V2 router01 in order to mitigate pair address resolution discrepancy between 
+ * router and factory (library)
+ */
 contract TestUniswapV2Router01 is IUniswapV2Router01 {
     address public immutable override factory;
     address public immutable override WETH;

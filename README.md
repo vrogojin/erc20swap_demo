@@ -25,10 +25,10 @@ Run "npx hardhat test"
 
 ## Test network
 
-Network: Sepolia
-ERC20Swapper: 0xdDc95ae0483786503338A6a8e53A97A3345A85b5
-TestERC20Token: 0x233695eEDc300069897287FB2eF9b3Ca74BdfC16
-
+ * Network: Sepolia
+ * ERC20Swapper: 0xdDc95ae0483786503338A6a8e53A97A3345A85b5
+ * TestERC20Token: 0x233695eEDc300069897287FB2eF9b3Ca74BdfC16
+ * Uniswap v2 router (not from this project): 0xC532a74256D3Db42D0Bf7a0400fEFDbad7694008
 
 ## Contracts
 

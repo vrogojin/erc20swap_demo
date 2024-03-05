@@ -30,6 +30,10 @@ Run "npx hardhat test"
  * TestERC20Token: 0x233695eEDc300069897287FB2eF9b3Ca74BdfC16
  * Uniswap v2 router (not from this project): 0xC532a74256D3Db42D0Bf7a0400fEFDbad7694008
 
+### Example transactions
+ * https://sepolia.etherscan.io/tx/0xc87cf8dff92b39ce6ef8d7f57affe86f90d67beb2c3abe0194256e24e3e15ead
+ * https://sepolia.etherscan.io/tx/0x03af5e1b74d686ccc85fd280abaef6070398808d1d53ce8552c15a065c524028
+
 ## Contracts
 
 ### ERC20Swapper.sol
